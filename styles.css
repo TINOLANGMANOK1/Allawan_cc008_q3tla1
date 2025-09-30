@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #ECE8E1;
+    margin: 0;
+    padding: 20px;
+
+
+    background-color: #0F1923;
+    background-image: radial-gradient(ellipse at center, #1a2835 0%, #0F1923 80%);
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 700px;
+    margin: 20px auto;
+    background-color: #1a2835;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #FD4556;
+    box-shadow: 0 0 15px rgba(253, 69, 86, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #FD4556;
+    margin-bottom: 25px;
+}
+
+
+fieldset {
+    border: 1px solid #e77d7d;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+legend {
+    color: #FD4556;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    background-color: #0F1923;
+    border: 1px solid #444;
+    border-radius: 4px;
+    color: #ECE8E1;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #FD4556;
+    box-shadow: 0 0 10px rgba(253, 69, 86, 0.7);
+}
+
+.radio-label {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+button,
+.back-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #FD4556;
+    color: #ECE8E1;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+button:hover,
+.back-button:hover {
+    background-color: #e83a49;
+    transform: translateY(-2px);
+}
+
+
+
+.output-item {
+    background-color: #0F1923;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-left: 3px solid #FD4556;
+    display: flex;
+    justify-content: space-between;
+}
+
+.output-item .label {
+    font-weight: bold;
+    color: #FD4556;
+    margin-right: 10px;
+}
+
+.output-item .value {
+    text-align: right;
+}
+
+#outputPhoto img {
+    max-width: 150px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
